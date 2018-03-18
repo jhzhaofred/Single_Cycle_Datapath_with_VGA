@@ -48,6 +48,6 @@ Seven segment shows the 16-bit instructions in hexadecimal. VGA displays five he
 
     1000 000001 000010 // (Hex: 8042) cmp R1, R2
 
-    0011 000000100010 // (Hex: 3022) jne theLoop (address is 34 = 0x22)
+    0011 000000000011 // (Hex: 3003) jne theLoop (address is 3)
 
     0000 000000000000 // (Hex: 0000) halt until push button is activated
